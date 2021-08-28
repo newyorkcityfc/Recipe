@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<title>How to make a Heart Shaped Pizza</title>
+<body>
+
+<h1>How to make a Heart Shaped Pizza</h1>
+<h2>Prep Time: 10 minutes, Bake Time: 15 minutes, Serving Size: 2 Small Pizza slices</h2>
+<p> Tools to Make Pizza:</p>
+<ul>
+  <li> Large Bowl</li>
+  <li>Baking Sheet</li>
+  <li>Hand Mixer</li>
+  <li>Cling Wrap</li>
+  <li> Whisk</li>
+  <li> Meausring Cups and Spoons</li>
+  <li> Rolling Pins</li>
+  <li> Pizza Cutter</li> 
+  <li> Oil Spray</li>
+  </ul>
+  <p> Safety Precautions: Wash Hands, Wear Mittens, Cook with audult supervision</p>
+<p>Enter the number of pies you would like to make<output></output</p>
+
+<p>
+  <input id="inputNumber" type="number" oninput="numConverter(this.value)" onchange="numConverter(this.value)"
+  oninput="numConverter(this.value)" onchange="numConverter(this.value)"
+  oninput="numConverter(this.value)" onchange="numConverter(this.value)"
+  oninput="numConverter(this.value)" onchange="numConverter(this.value)"
+  oninput="numConverter(this.value)" onchange="numConverter(this.value)"
+  oninput="numConverter(this.value)" onchange="numConverter(this.value)"
+  oninput="numConverter(this.value)" onchange="numConverter(this.value)"
+  oninput="numConverter(this.value)" onchange="numConverter(this.value)"
+</p>
+<p>Cups of All-Purpose Flour:<span id="outputFlour"></span></p>
+<p>Tablespoons of Sugar: <span id="outputSugar"></span></p>
+<p>Tablespoons of Olive Oil: <span id="outputOliveOil"></span></p>
+<p>Tablespoons of Salt: <span id="outputSalt"></span></p>
+<p>Cups of water : <span id="outputWater"></span></p>
+<p>Teaspoons of Active Dry Yeast : <span id="outputYeast"></span></p>
+<p>Cups of Pizza Sauce : <span id="outputSauce"></span></p>
+<p>Cups of Mozzarella Cheese : <span id="outputCheese"></span></p>
+
+<script>
+function numConverter(valNum) {
+  document.getElementById("outputFlour") .innerHTML=valNum*2.5;
+  document.getElementById("outputSugar") .innerHTML=valNum*1;
+  document.getElementById("outputOliveOil") .innerHTML=valNum*1/2;
+  document.getElementById("outputSalt") .innerHTML=valNum*1;
+  document.getElementById("outputWater").innerHTML=valNum*1;
+  document.getElementById("outputYeast").innerHTML=valNum*1/4;
+  document.getElementById("outputSauce").innerHTML=valNum*1;
+  document.getElementById("outputCheese").innerHTML=valNum*1;
+  
+}
+
+/*Dough - 1
+Olives - 3
+Peppers - 3
+Sauce - 1
+Cheese - 2*/
+
+
+
+</script>
+<h>Step 1</h>
+<p>Add water, sugar, dry yeast, olive oil into a bowl. Mix all the ingredients using a whisk. After whisked, let it all rest for about 10 minutes so that bubbles start to form.</p> 
+
+<h>Step 2</h>
+<p>Add salt and water into the same bowl and mix it using a hand mixer. Make sure all ingredients are mixed well to form a dough.</p> 
+
+<h>Step 3</h>
+<p>Spray your hands with oil spray and play with the dough until it is soft and stretchy. Put the dough back into the bowl and cover the bowl with cling wrap. Let the bowl rest in room temperature.</p>
+
+<h>Step 4</h>
+<p>Take the dough out of the bowl and lay it out on a light floured surface. Play with the dough and then roll it out into a round shape with 1/2 an inch of thickness. Fold the circle in half and cut it into a half heart shape using a pizza cutter. Then unfold it and it should be a heart.</p>
+
+<p>Step 5</p>
+<p> Put the crust onto a greased baking sheet. Then, put the sauce over the crust and sprinkle the cheese onto your pizza</p>
+
+<p>Step 6</p>
+<p> Bake the pizza at 475 degrees Farenheit for about 15 minutes until the crust and cheese turn into a golden brown color. Last but not least, enjoy!!!</p>
+</body>
+</html>
